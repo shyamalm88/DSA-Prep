@@ -11,6 +11,7 @@ const generate = (res, str, open, close) => {
     if (close > open) generate(res, str + ")", open, close - 1);
     if (open) generate(res, str + "(", open - 1, close);
   } else {
+    console.log();
     res.push(str);
   }
 };
