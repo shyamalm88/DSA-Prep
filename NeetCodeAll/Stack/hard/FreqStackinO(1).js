@@ -1,0 +1,12 @@
+var FreqStack = function () {};
+
+/**
+ * @param {number} val
+ * @return {void}
+ */
+FreqStack.prototype.push = function (val) {};
+
+/**
+ * @return {number}
+ */
+FreqStack.prototype.pop = function () {};
